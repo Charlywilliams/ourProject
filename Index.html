@@ -12,6 +12,7 @@
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CFG_Webdev_CSS.css">
+    <script src="CFG_JavaScript.js"></script>
     <noscript>Sorry, your browser does not support JavaScript!</noscript>
     
 </head>
@@ -19,8 +20,11 @@
 <body>
   <main>
     <h1>Book Festival</h1>
-    <div id="Menu_Bar"><button>Home</button><button>Vendors</button><button>Button</button><button>Another
-        Button</button></div>
+    <div id="NavBar">   <div class="btn-group">
+      <button id="MainPage" onclick="location.href='Index.html';">Home</button>
+      <button id="VendorsPage" onclick="location.href='HW_Page2.html';">Vendors</button>
+      <button id="BookingFormPage" onclick="location.href='Index.html';">Booking Form</button>
+    </div></div>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu sem nec neque dapibus mattis. Duis
       egestas convallis arcu, ac eleifend orci varius nec. Donec lacinia eros fringilla quam elementum aliquam. Morbi
       commodo, dolor ac viverra blandit, orci dolor convallis sem, quis feugiat nulla eros ut nibh. Nunc et consequat
@@ -32,32 +36,33 @@
       commodo, dolor ac viverra blandit, orci dolor convallis sem, quis feugiat nulla eros ut nibh. Nunc et consequat
       arcu. Vivamus fringilla dolor non mi sagittis, id laoreet lacus auctor.</p>
     <br>
-    <h3>Image</h3>
+
     <h2>Here's a h2 Heading</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu sem nec neque dapibus mattis. Duis
       egestas convallis arcu, ac eleifend orci varius nec. Donec lacinia eros fringilla quam elementum aliquam. Morbi
       commodo, dolor ac viverra blandit, orci dolor convallis sem, quis feugiat nulla eros ut nibh. Nunc et consequat
       arcu. Vivamus fringilla dolor non mi sagittis, id laoreet lacus auctor.</p>
     <br>
-    <h3>Image</h3>
+
     <h2>Here's a h2 Heading</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu sem nec neque dapibus mattis. Duis
       egestas convallis arcu, ac eleifend orci varius nec. Donec lacinia eros fringilla quam elementum aliquam. Morbi
       commodo, dolor ac viverra blandit, orci dolor convallis sem, quis feugiat nulla eros ut nibh. Nunc et consequat
       arcu. Vivamus fringilla dolor non mi sagittis, id laoreet lacus auctor.</p>
     <br>
-    <h3>Image</h3>
+
   </main>
   <div>
     <footer>
       <nav>
         <div class="btn-group">
-          <button id="MainPage">Link to main</button>
-          <button id="VendorsPage">Link to Vendors</button>
-          <button id="BookingFormPage">Link to Profile</button>
+          <button id="MainPage" onclick="location.href='Index.html';">Home</button>
+          <button id="VendorsPage" onclick="location.href='HW_Page2.html';">Vendors</button>
+          <button id="BookingFormPage" onclick="location.href='Index.html';">Booking Form</button>
         </div>
       </nav>
-    </footer></div>
+    </footer>
+  </div>
 </body>
 
 </html>
