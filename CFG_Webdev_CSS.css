@@ -1,77 +1,203 @@
-
 /*General Styling*/
-body{text-align: center;}
+body {
+  text-align: center;
+}
 
 /* Style the navbar */
 #navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Navbar links */
-  #NavBar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#NavBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 
 /*Image Gallery*/
 div.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    align-content: center;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
-  
 
-  * {
-    box-sizing: border-box;
-  }
-  
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 12px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
   .responsive {
-    padding: 0 12px;
-    float: left;
-    width: 24.99999%;
+    width: 49.99999%;
+    margin: 6px 0;
   }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
+}
 
-  /* #Header{background-image: url("Images/Book_Header.png");background-color: #d11010; height: 484px;} */
-
- .greyscale:hover {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
   }
+}
+
+/* #Header{background-image: url("Images/Book_Header.png");background-color: #d11010; height: 484px;} */
+
+.greyscale:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* .Book1 {
+  background-image: url("Images\Book1.jpg");
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+
+.Book2 {
+  background-image: url("Book2.jpeg");
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+
+.photo3 {
+  background-image: url("image3.jpeg");
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+
+.photo4 {
+  background-image: url("image4.jpeg");
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+
+.photo5 {
+  background-image: url("Image8.jpeg");
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+
+.photo6 {
+  background-image: url("Image9.jpeg");
+  margin-top: 12px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30rem;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item img {
+  width: 80%;
+  height: 350px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.footer-basic {
+  margin-top: 1rem;
+  background-color: #ccc;
+}
