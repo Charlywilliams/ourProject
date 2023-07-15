@@ -9,7 +9,7 @@ body{text-align: center;}
   }
   
   /* Navbar links */
-  #navbar a {
+  #NavBar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -74,3 +74,5 @@ div.gallery img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
+
+  nav{align-content: center;}
