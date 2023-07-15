@@ -69,10 +69,9 @@ div.gallery img {
     }
   }
 
+  /* #Header{background-image: url("Images/Book_Header.png");background-color: #d11010; height: 484px;} */
 
-  img:hover {
+ .greyscale:hover {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
-
-  nav{align-content: center;}
