@@ -71,82 +71,10 @@ div.gallery img {
   }
 }
 
-/* #Header{background-image: url("Images/Book_Header.png");background-color: #d11010; height: 484px;} */
-
 .greyscale:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
-/* .Book1 {
-  background-image: url("Images\Book1.jpg");
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30rem;
-  width: 100%;
-}
-
-.Book2 {
-  background-image: url("Book2.jpeg");
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30rem;
-  width: 100%;
-}
-
-.photo3 {
-  background-image: url("image3.jpeg");
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30rem;
-  width: 100%;
-}
-
-.photo4 {
-  background-image: url("image4.jpeg");
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30rem;
-  width: 100%;
-}
-
-.photo5 {
-  background-image: url("Image8.jpeg");
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30rem;
-  width: 100%;
-}
-
-.photo6 {
-  background-image: url("Image9.jpeg");
-  margin-top: 12px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 30rem;
-  width: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-} */
 
 .grid-container {
   display: grid;

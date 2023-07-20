@@ -2,6 +2,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 2rem;
+  align-content: center;
 }
 
 th,
@@ -23,4 +24,8 @@ td:nth-child(odd) {
 td:nth-child(even) {
   background-color: #ff69b4; /* Hot Pink */
   color: #fff;
+}
+
+.table {
+  align-items: center;
 }
